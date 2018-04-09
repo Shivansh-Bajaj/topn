@@ -1,0 +1,89 @@
+/*body {*/
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+/*}*/
+
+/*a {*/
+  /*color: #00B7FF;*/
+/*}*/
+
+/*html                    { overflow-y:scroll; text:white;}*/
+body {
+    align-content: center;
+    color: green;
+}
+/*font                    { color:white;}*/
+/*p                       { text-color:white;color:white;}*/
+/*button                  { text-color:black;}*/
+/*.jumbothron             { margin-bottom: 0px;}*/
+/*.links                  {}*/
+/*.element                { margin-bottom:30px; background:black;color:white;}*/
+/*.verticalLine           { border-bottom: thick solid white;border-radius:15px}*/
+/*.icon                   { color:white;width:100px;height:100px}*/
+/*.hide                   { display:none;}*/
+/*.typed-cursor           {display: none;}*/
+.outerbox {
+    border: 3px solid green;
+    padding: 10px;
+    /*margin-left: 30vw;*/
+    min-width: 400px;
+    margin-top: 40px;
+    min-height: 700px;
+    width: 40vw;
+
+}
+table {
+    text-align: center;
+}
+.heading {
+    border-bottom: 1px solid #4CAF50;
+    padding-bottom: 9px;
+    position: relative;
+}
+.heading span {
+    background: #2e9e74 none repeat scroll 0 0;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 75px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+
+.centered {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    min-width: 100%;
+    padding: 10px 0 10px 5px;
+}
+
+input[type="checkbox"] {
+    border: 1px solid green;
+    margin-top: 5px;
+    margin-left: 10px;
+}

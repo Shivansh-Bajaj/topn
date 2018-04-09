@@ -1,0 +1,25 @@
+{
+  "name": "topn",
+  "description": "",
+  "main": "",
+  "authors": [
+    "jamesthechamp <bajajshivansh1@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "angularjs#^1.6.9",
+    "jquery": "^3.3.1",
+    "angular-route": "^1.6.9",
+    "ng-tags-input": "3.2.0"
+  }
+}

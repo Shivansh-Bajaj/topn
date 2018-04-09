@@ -1,0 +1,22 @@
+
+<form>
+    <div class="form-group form_main">
+        <label for="url" class="col-form-label">URL: (example <a href="http://terriblytinytales.com/test.txt">http://terriblytinytales.com/test.txt</a>)</label>
+        <input class="txt" ng-model="url" type="url" pattern="https?://.+" id="url" required />
+    </div>
+    <div class="form-group">
+        <label for="n" class="col-form-label">No of words:</label>
+        <input class="txt" ng-model="n" type="number" class="form-control" id="n" required/>
+    </div>
+
+    <div class="form-group">
+        <label for="stopword" class="col-form-label">stopwords:</label>
+        <tags-input ng-model="stopwords" min-length="1" add-on-space="true" add-on-comma="true"></tags-input>
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" for="stopword">or use default stopwords:</label>
+        <input type="checkbox" ng-model="defaultStopword" ng-change="getStopwords(defaultStopword)" id="stopword">
+    </div>
+    <button class="centered" ng-click="getTopN( n, url, stopwords)">get topN</button>
+    <br />
+</form>

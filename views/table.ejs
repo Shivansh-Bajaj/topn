@@ -1,0 +1,23 @@
+<table class="table">
+
+    <!--Table head-->
+    <thead class="blue-grey lighten-4">
+    <tr>
+        <th>words</th>
+        <th>frequency</th>
+    </tr>
+    </thead>
+    <!--Table head-->
+
+    <!--Table body-->
+    <tbody>
+    <tr ng-repeat="i in result.reverse()">
+        <td>{{i[1]}}</td>
+        <td>{{i[0]}}</td>
+    </tr>
+
+    </tbody>
+    <!--Table body-->
+
+</table>
+<!--Table-->

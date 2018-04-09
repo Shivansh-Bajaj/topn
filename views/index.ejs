@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <ht    ml lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <title>get topN</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TopN </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/ng-tags-input/ng-tags-input.css">
+    <link rel='stylesheet' href="stylesheets/style.css" />
+</head>
+<body ng-controller="ctrl">
+<div class="outerbox centered">
+    <br />
+    <h4 class="heading"><strong>Get </strong> TopN <span></span></h4>
+    <div class="row"></div>
+    <p style="color: red">{{errorMessage}}</p>
+    <div ng-include="page"></div>
+    <!--<ng-view></ng-view>-->
+</div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/ng-tags-input/ng-tags-input.js"></script>
+<script src="javascripts/app.js"></script>
+<script src="javascripts/app.controller.js"></script>
+<script src="javascripts/app.services.js"></script>
+
+</body>
+</html>

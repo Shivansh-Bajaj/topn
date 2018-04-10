@@ -2,8 +2,28 @@
 application to scrape any website and get top N (here N is input) high frequent words from site.
 Also has functionality to neglect stop words from results.
 
+## Plugin Used:
+
+####Frontend:
+JQuery    
+angularJS  
+ngTagInput  
+
+####Backend:
+
+NodeJS  
+expressJS  
+Logger: morgan  
+View engine: ejs  
+
+####linting Tool:
+
+jshint  
+
 ## dependencies:  
-nodeJS
+
+nodeJS  
+NPM
 
 ## steps to build:  
 
@@ -11,7 +31,7 @@ application is preconfigured you just need to install dependencies. And then
 
     npm start
 
-##API:  
+## API's:  
 URL: /api/v1/topn  
 
 API to get top N elements from URL:
@@ -55,6 +75,6 @@ Success case example:
 }
 ```
 
-##DEMO  
+## DEMO USAGE FRONTEND APP  
 
 ![Alt Text](./DEMO/demo1.gif)

@@ -34,7 +34,6 @@ function extractN(hash, n) {
             }
             if (n < 1 || index + 1 === keys.length ) {
                 resolve(result);
-                console.log( 'return');
                 return true;
             }
         });
@@ -77,7 +76,6 @@ module.exports = function (text, stopwords, n) {
                         let swapedHash = swap(cleanHash);
                         extractN(swapedHash, n)
                             .then(result => {
-                                console.log('done');
                                 resolve(result);});
                     });
             }

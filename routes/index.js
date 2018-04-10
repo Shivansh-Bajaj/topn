@@ -34,7 +34,6 @@ router.post('/api/v1/topn', function (req, res) {
                 done(err);  
         });
     }], function(err, result) {
-        console.log(result);
         if(err) {
             res.status(500).json({
                 'status': 'fail',

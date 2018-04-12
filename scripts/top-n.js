@@ -1,12 +1,16 @@
 'use strict';
 
+/*
+    Algorithm to find topn words in given string after removing stopwords and cleaning code.
+    It is a implemented using a simple hash data structure
+*/
+
 const _ = require('underscore');
 
-
+// strip string and convert to lowerCase
 function stripAndLowerCase(str) {
     return str.replace(/^\s+|\s+$/g, '').toLowerCase();
 }
-
 
 function swap(hash) {
     let newHash = Object.keys(hash).reduce((obj, key)=>{
@@ -20,6 +24,7 @@ function swap(hash) {
     return newHash;
 }
 
+// Get top N value of hash
 function extractN(hash, n) {
     return new Promise((resolve) => {
         let result = {};
@@ -40,6 +45,7 @@ function extractN(hash, n) {
     });
 }
 
+// remove stop words from hash
 function removeStopWords(hash, stopwords) {
     return new Promise((resolve)=> {
         delete hash[''];

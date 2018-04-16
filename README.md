@@ -2,6 +2,7 @@
 
 application to scrape any website and get top N (here N is input) high frequent words from site.
 Also has functionality to neglect stop words from results.
+Note: Result is in lowercase
 
 ## Plugin Used:
 
